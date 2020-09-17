@@ -1,0 +1,59 @@
+* {
+    font-family: Dancing script;
+}
+
+.hoofd-titel {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    border: 5px dotted red;
+}
+
+.box-1 h1 {
+    color: grey;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.box-1 h2 {
+    color: blue;
+}    
+.box-1 p {
+    color: blueviolet;
+}
+
+.rounded {
+    background-color: burlywood;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.rounded ol{
+    padding-top: 40px;
+}
+
+.linkje{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    
+}
+a{  text-decoration: none;
+    color: #000
+}
+
+a:hover{ 
+    color: red;
+}
+
+ol{ 
+    list-style: none;
+}
+
+ul{
+    padding-left: 0;
+
+}

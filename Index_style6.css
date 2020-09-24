@@ -1,0 +1,60 @@
+body { 
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.black-border {
+    border: 2px solid;
+    color: red
+}    
+
+#green-background {
+    background-color: yellowgreen;
+    font-size: 9px;
+}
+
+.text-color { 
+    color: rebeccapurple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+    font-weight: bold;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+@media (max-width: 600px){
+    h2{
+        line-height: 1.5rem;
+        background-color: lightpink;
+        color: blue;
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px){
+    p{
+        color: skyblue;
+    }
+}
+@media (min-width: 600px){
+    h2{
+        line-height: 2rem;
+        background-color: yellow;
+        color: darkgreen;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 600px){
+    p{
+        color: red;
+    }
+}
+
+

@@ -1,0 +1,22 @@
+/* Opdracht deel 1 */
+
+a:visited{
+    color: yellow;
+}
+
+a:hover{
+    color: lightblue;
+}
+  
+a:active{
+    color: red;
+    font-style: italic; 
+}
+
+form input:focus{
+    color: green;
+    font-size: 20px;
+}
+
+/* Opdracht deel 2 */
+

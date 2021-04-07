@@ -1,0 +1,45 @@
+body{
+    max-width: 800px;
+    word-spacing: 2em;
+}
+
+ul{
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+
+nav{
+      background-color: darkblue;
+      padding: 1px;
+}
+
+.current a{
+    background-color:burlywood;
+}
+
+a{
+    color: white;
+}
+
+ul a:hover{
+    background-color: lightblue;
+}
+
+ul input[type=text]{
+    float: right;
+    padding: 1px;
+    border: none;
+    margin-right: 8px;
+    font-size: 13px;
+}
+
+ul input[type=text]:focus{
+    border: 5px;
+    border-style: solid;
+    border-color:aqua;
+}
